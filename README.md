@@ -14,7 +14,7 @@ Before running the code, make sure you have the following dependencies installed
 - pyemma
 
 ## Dataset
-The project uses a real-world dataset containing time-series data of ambient temperature system readings. The dataset is provided in a ZIP archive, and it is read into a pandas DataFrame for further processing and analysis.
+The project uses a real-world dataset containing time-series data of ambient temperature system readings. The dataset is provided in a ZIP archive, and it is read into a pandas DataFrame for further processing and analysis. The dataset is downloaded from Kaggle (Numenta Anomaly Benchmark (NAB)).
 
 ## Techniques Implemented
 1. **K-Means Clustering Anomaly Detection:** K-Means clustering is used to group data points into clusters, and the distance to cluster centroids is used as an anomaly score to detect outliers.
